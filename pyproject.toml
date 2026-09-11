@@ -9,6 +9,9 @@ description = "Turn any API into an async, typed, composable, resilient, observa
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
+authors = [
+    { name = "Daniil Maistrenko", email = "caportabow@gmail.com" },
+]
 dependencies = [
     "httpx>=0.24",
 ]
