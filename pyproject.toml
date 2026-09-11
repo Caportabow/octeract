@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "octeract"
+version = "0.1.0"
+description = "Turn any API into an async, typed, composable, resilient, observable, streamable Python function."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "httpx>=0.24",
+]
+
+[project.optional-dependencies]
+typed = ["pydantic>=2.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["octeract*"]

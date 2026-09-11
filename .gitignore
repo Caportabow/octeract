@@ -1,0 +1,66 @@
+# ============================================================
+# Python
+# ============================================================
+
+# Byte-compiled / optimized / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Virtual environments (add your own, e.g. .venv-dev/)
+.venv/
+venv/
+env/
+ENV/
+
+# Test, coverage, and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.tox/
+.nox/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Pyre / other type-checker caches
+*.pyc
+
+# ============================================================
+# Environment & secrets (never commit real credentials)
+# ============================================================
+.env
+.env.*
+!.env.example
+
+# ============================================================
+# Logs & scratch
+# ============================================================
+*.log
+*.tmp
+
+# ============================================================
+# macOS
+# ============================================================
+.DS_Store
+
+# ============================================================
+# IDEs / editors
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
